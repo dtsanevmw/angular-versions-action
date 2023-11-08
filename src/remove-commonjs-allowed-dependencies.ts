@@ -14,9 +14,8 @@ export function removeCommonJsAllowList(
 ): AngularJson {
   const modifiedAngularJson = cloneDeep(angularJson);
 
-  const projectsAndTargetsWithAllowedCommonJSDependencies = getNameOfProjectsAndTargetsWithAllowedCommonJSDependencies(
-    angularJson
-  );
+  const projectsAndTargetsWithAllowedCommonJSDependencies =
+    getNameOfProjectsAndTargetsWithAllowedCommonJSDependencies(angularJson);
 
   projectsAndTargetsWithAllowedCommonJSDependencies.forEach(
     ([projectName, targetName]) => {

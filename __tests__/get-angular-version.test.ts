@@ -11,8 +11,8 @@ describe(getAngularVersions.name, () => {
   });
 
   test('returns new instances of Angular version for each call', () => {
-    const firstVersion = getAngularVersions('8.0.x');
-    const secondVersion = getAngularVersions('8.0.x');
+    const firstVersion = getAngularVersions('16.0.x');
+    const secondVersion = getAngularVersions('16.0.x');
 
     expect(firstVersion).toEqual(secondVersion);
     expect(firstVersion).not.toBe(secondVersion);
