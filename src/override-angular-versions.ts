@@ -1,11 +1,7 @@
-import {
-  PackageJson,
-  PackageJsonDependencies,
-  PackageJsonDevDependencies
-} from './types/package-json';
+import {PackageJson, PackageJsonDevDependencies} from './types/package-json';
 
 function removeNullDependencies<
-  TDependencies extends PackageJsonDependencies | PackageJsonDevDependencies
+  TDependencies extends PackageJsonDevDependencies
 >(dependencies: TDependencies): TDependencies {
   return Object.fromEntries(
     Object.entries(dependencies).filter(
@@ -25,10 +21,6 @@ export function overrideAngularVersions({
 }): PackageJson {
   return {
     ...projectVersions,
-    dependencies: removeNullDependencies({
-      ...projectVersions.dependencies,
-      ...angularVersions.dependencies
-    }),
     devDependencies: removeNullDependencies({
       ...projectVersions.devDependencies,
       ...angularVersions.devDependencies

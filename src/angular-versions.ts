@@ -14,7 +14,7 @@ export const versions = new Map<AngularVersion, PackageJson>([
         '@angular/forms': '~16.0.0',
         '@angular/platform-browser': '~16.0.0',
         '@angular/platform-browser-dynamic': '~16.0.0',
-        '@angular/router': '~16.0.0',
+        '@angular/router': '~16.0.0'
       }
     }
   ]

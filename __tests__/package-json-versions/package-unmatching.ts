@@ -30,35 +30,16 @@ export const packageUnmatching = {
     'delete-path-alias': 'node tools/delete-path-alias.js'
   },
   private: true,
-  dependencies: {
-    unmatching: 'unmatching'
-  },
   devDependencies: {
-    'unmatching-dev': 'unmatching-dev',
-    '@commitlint/cli': '8.1.0',
-    '@commitlint/config-angular': '^8.3.4',
-    '@commitlint/config-conventional': '^8.3.4',
-    '@ngneat/spectator': '^6.0.0',
-    '@types/jasmine': '~3.5.0',
-    '@types/jasminewd2': '~2.0.3',
-    'all-contributors-cli': '^6.8.1',
-    copy: '~0.3.2',
-    'git-cz': '^3.3.0',
-    husky: '^3.1.0',
-    'jasmine-core': '~3.5.0',
-    'jasmine-spec-reporter': '~5.0.2',
-    json: '^10.0.0',
-    karma: '~5.0.9',
-    'karma-chrome-launcher': '~3.1.0',
-    'karma-coverage-istanbul-reporter': '~3.0.2',
-    'karma-jasmine': '~3.3.1',
-    'karma-jasmine-html-reporter': '^1.5.0',
-    'lint-staged': '^9.5.0',
-    prettier: '^2.0.5',
-    protractor: '~7.0.0',
-    'standard-version': '^6.0.1',
-    'tslint-config-prettier': '^1.18.0',
-    'tslint-plugin-prettier': '^2.3.0'
+    '@angular/animations': '~16.0.0',
+    '@angular/cdk': '~16.0.0',
+    '@angular/common': '~16.0.0',
+    '@angular/compiler': '~16.0.0',
+    '@angular/core': '~16.0.0',
+    '@angular/forms': '~16.0.0',
+    '@angular/platform-browser': '~16.0.0',
+    '@angular/platform-browser-dynamic': '~16.0.0',
+    '@angular/router': '~16.0.0'
   },
   config: {
     commitizen: {

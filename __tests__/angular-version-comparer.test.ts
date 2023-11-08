@@ -1,24 +1,7 @@
 import {angularVersionComparer} from '../src/angular-version-comparer';
 import {AngularVersion} from '../src/types/angular-version';
 
-const angularVersions: AngularVersion[] = [
-  '6.0.x',
-  '6.1.x',
-  '7.0.x',
-  '7.1.x',
-  '7.2.x',
-  '8.0.x',
-  '8.1.x',
-  '8.2.x',
-  '9.0.x',
-  '9.1.x',
-  '10.0.x',
-  '10.1.x',
-  '10.2.x',
-  '11.0.x',
-  '11.1.x',
-  '11.2.x'
-];
+const angularVersions: AngularVersion[] = ['16.0.x'];
 
 describe('the angular version comparer', () => {
   angularVersions.forEach(version => {

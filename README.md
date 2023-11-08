@@ -37,26 +37,7 @@ jobs:
     strategy:
       matrix:
         angular-version:
-          - 6.0.x
-          - 6.1.x
-          - 7.0.x
-          - 7.1.x
-          - 7.2.x
-          - 8.0.x
-          - 8.1.x
-          - 8.2.x
-          - 9.0.x
-          - 9.1.x
-          - 10.0.x
-          - 10.1.x
-          - 10.2.x
-          - 11.0.x
-          - 11.1.x
-          - 11.2.x
-          - 12.0.x
-          - 12.1.x
-          - 12.2.x
-          - 13.0.x
+          - 16.0.x
 
     steps:
       - uses: actions/checkout@v2
@@ -81,26 +62,8 @@ This example use the github matrix to build, lint and test your code against dif
 
 At the moment this actions supports a limited set of Angular versions listed below.
 
-- 6.0.x
-- 6.1.x
-- 7.0.x
-- 7.1.x
-- 7.2.x
-- 8.0.x
-- 8.1.x
-- 8.2.x
-- 9.0.x
-- 9.1.x
-- 10.0.x
-- 10.1.x
-- 10.2.x
-- 11.0.x
-- 11.1.x
-- 11.2.x
-- 12.0.x
-- 12.1.x
-- 12.2.x
-- 13.0.x
+- 16.0.x
+
 
 ### Managed packages
 
